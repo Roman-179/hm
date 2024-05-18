@@ -1,0 +1,37 @@
+.header {
+    width: 100vw;
+    background-color: $main_background_color;
+
+    .nav_box {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        .nav {
+            width: 550px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                font-weight: 400;
+                color: $text_color;
+            }
+
+            & li:first-child {
+                font-weight: 500;
+                color: black;
+            }
+        }
+
+
+
+
+    }
+
+
+
+
+}

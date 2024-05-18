@@ -1,0 +1,41 @@
+.header_article {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+
+    .header_info {
+        width: 526px;
+        height: 276px;
+        display: grid;
+        grid-template-rows: repeat(3);
+        align-self: center;
+        margin-right: 110px;
+
+        .title {
+            font-size: 90px;
+            font-weight: 400;
+            font-family: $secondary_font;
+
+        }
+
+        .header_text {
+            margin: 10px 0 40px 0;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;
+        }
+
+        .main_btn {
+            @extend .btn
+        }
+    }
+
+    .header_man {
+        display: grid;
+        align-self: flex-end;
+    }
+
+}

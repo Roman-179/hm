@@ -1,0 +1,60 @@
+.login_section {
+    width: 100%;
+    background-color: $main_background_color;
+
+    .login_article {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        margin-top: 120px;
+
+        .login_box {
+            display: block;
+
+            .contact {
+                font-size: 70px;
+                font-family: $secondary_font;
+                margin-bottom: 224px;
+            }
+
+            .mail {
+                font-size: 20px;
+                margin-bottom: 14px;
+                color: $btn_background_color;
+            }
+
+            .adress {
+                font-size: 20px;
+            }
+        }
+
+        input {
+            // width: 570px;
+            margin-bottom: 16px;
+            padding: 18px 497px 18px 24px;
+            border: 1px solid $input_color;
+            border-radius: 6px;
+
+            &::placeholder {
+                color: $input_color;
+            }
+        }
+
+        textarea {
+            padding: 15px 497px 93px 24px;
+            border: 1px solid $input_color;
+            border-radius: 6px;
+
+            &::placeholder {
+                color: $input_color;
+            }
+        }
+
+        .main_btn {
+            @extend .btn;
+            margin-top: 30px;
+
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.clients_section {
+    width: 100%;
+
+    .clients_title {
+        font-size: 70px;
+        font-family: $secondary_font;
+        text-align: center;
+
+        & span {
+            color: $btn_background_color;
+            font-family: $secondary_font;
+        }
+    }
+
+    .clients_box {
+        width: 80%;
+        margin: 0 auto;
+        background-color: $main_background_color;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+        .clients_text {
+            display: grid;
+            align-self: center;
+
+            .clients_review {
+                font-size: 18px;
+                line-height: 27px;
+            }
+
+            .client_name {
+                font-size: 16px;
+                font-weight: 600;
+                margin: 20px 0 5px 0;
+            }
+
+            .client_ceo {
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+
+
+    }
+
+}
