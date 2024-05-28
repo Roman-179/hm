@@ -13,7 +13,7 @@ jobs:
        uses: action/checkout@v2
 
        -name: Upload to FTP
-        uses: SamKirkland/FTP-Deploy_Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           ftp-server: ftpupload.net
           ftp-username: if0_36632230
